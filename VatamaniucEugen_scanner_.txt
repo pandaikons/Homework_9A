@@ -1,0 +1,64 @@
+import java.util.Scanner;
+
+public class HelloWorld{
+
+    public static void main(String args[]){
+
+      Scanner tastatura=new Scanner(System.in);
+       System.out.println("ore:");
+		System.out.println("minute:");
+       
+	   int a = tastatura.nextInt();
+	   int b = tastatura.nextInt();
+	   int c = (a*60)+b;
+       System.out.println("total minute="+c);
+		tastatura.close();
+    }
+}
+
+
+import java.util.Scanner;
+
+public class HelloWorld{
+
+    public static void main(String args[]){
+
+      Scanner tastatura=new Scanner(System.in);
+       System.out.println("1cateta:");
+		System.out.println("2cateta:");
+      
+	   int a = tastatura.nextInt();
+	   int b = tastatura.nextInt();
+	     int c = (a*a)+(b*b);
+	   System.out.println("ipotenuza:"+Math.sqrt(c));
+	  
+		tastatura.close();
+    }
+}
+
+import java.util.Scanner;
+
+public class HelloWorld{
+
+    public static void main(String args[]){
+
+      Scanner tastatura=new Scanner(System.in);
+       System.out.println("cantitatea de fructe uscate:");
+      /*
+	  int p=10%
+	  */
+	   
+	   double m = tastatura.nextDouble();
+	   double a = (m /9)*10.0;
+	   System.out.println("cantitatea de fructe necesara:"+a);
+		tastatura.close();
+    }
+}
+
+
+
+
+
+
+
+
